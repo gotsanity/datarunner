@@ -4,26 +4,26 @@ require_once 'header.php';
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         <h1>Contact Us</h1>
-        <p>This site is a mobile-friendly tournament organizer and deck management utility for Android: Netrunner. The site will help to manage your tournaments or play-groups and also provide local and global statistics on card usage and win/loss ratios.</p>
-        <p><a href="about.php" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+		<p>We want to hear from you. Below you will find several methods of contacting us. Feel free to send any questions you have via one of the methods below.</p>
+        <p><a href="mailto:gotsanity@gmail.com" class="btn btn-primary btn-large">Email the Developer &raquo;</a></p>
       </div>
 
       <!-- Example row of columns -->
       <div class="row">
         <div class="span4">
-          <h2>Organize a Tournament</h2>
-          <p>Use Datarunner to organize a tournament for your FLGS or personal play-group. Tournaments are built using the Netrunner tournament rules and uses computerized randomization to handle situations like starting matchups.</p>
-          <p><a class="btn" href="organize.php">Organize a Tournament &raquo;</a></p>
+          <h2>Github</h2>
+          <p>Drop us a comment or a commit on <a href="https://github.com/gotsanity/datarunner">our github repo</a>. You can also check out a copy of the code and test your coding skills. Just make sure to read the about page for info on our licensing requirements.</p>
+          <p><a class="btn" href="https://github.com/gotsanity/datarunner">Make a commit &raquo;</a></p>
         </div>
         <div class="span4">
-          <h2>Stats</h2>
-          <p>Provide statistics to compettitive players of Android: Netrunner on play styles, most used cards, and effective strategies. Datarunner can track both worldwide play styles and the play styles of your local group. Every person who uses Datarunner adds to the statistics pool! Use these stats to improve your compettitive play.</p>
-          <p><a class="btn" href="stats.php">View your stats &raquo;</a></p>
+          <h2>Email</h2>
+          <p>Send the developer an email. Please make sure to put Datarunner in the subject line or you may get lost in the spam filter!</p>
+          <p><a class="btn" href="mailto:gotsanity@gmail.com">Email Us &raquo;</a></p>
        </div>
         <div class="span4">
-          <h2>Manage Decks</h2>
-          <p>With Datarunner you can build and save your decklists for future use. You can also export and import them using Octgn.net files and text files so that you can add them to Octgn or other sites like cardgamedb.com!</p>
-          <p><a class="btn" href="decks.php">Manage your decks &raquo;</a></p>
+          <h2>Facebook</h2>
+          <p>We also have a facebook page available. Join this if you want to be kept up-to-date on changes to the site and possibly share your deck lists with others.</p>
+          <p><a class="btn" href="https://www.facebook.com/netrunnerdata">Like us on facebook &raquo;</a></p>
         </div>
       </div>
 <?php

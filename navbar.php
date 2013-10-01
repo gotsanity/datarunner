@@ -1,3 +1,12 @@
+<?php
+function active($link) {
+	if ($link == $_SERVER['PHP_SELF']) {
+		return 'active ';
+	} else {
+		return;
+	}
+}
+?>
 <html>
 <head>
 	<title>Datarunner</title>
@@ -39,19 +48,19 @@
           <a class="brand" href="index.php">Datarunner</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="index.php">Home</a></li>
-              <li><a href="about.php">About</a></li>
-              <li><a href="contact.php">Contact</a></li>
+              <li class="<?php echo active('/index.php'); ?>"><a href="index.php">Home</a></li>
+              <li class="<?php echo active('/about.php'); ?>"><a href="about.php">About</a></li>
+              <li class="<?php echo active('/contact.php'); ?>"><a href="contact.php">Contact</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Play <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="organize.php">Start a Tourney</a></li>
-                  <li><a href="register-tourney.php">Register for a Tourney</a></li>
+                  <li class="<?php echo active('/organize.php'); ?>"><a href="organize.php">Start a Tourney</a></li>
+                  <li class="<?php echo active('/register-tourney.php'); ?>"><a href="register-tourney.php">Register for a Tourney</a></li>
                   <li class="divider"></li>
                   <li class="nav-header">Your Account</li>
-                  <li><a href="decks.php">Manage Decks</a></li>
-                  <li><a href="stats.php">View Stats</a></li>
-                  <li><a href="profile.php">Manage Profile</a></li>
+                  <li class="<?php echo active('/decks.php'); ?>"><a href="decks.php">Manage Decks</a></li>
+                  <li class="<?php echo active('/stats.php'); ?>"><a href="stats.php">View Stats</a></li>
+                  <li class="<?php echo active('/profile.php'); ?>"><a href="profile.php">Manage Profile</a></li>
                 </ul>
               </li>
 			<?php if (is_admin()) { ?>
