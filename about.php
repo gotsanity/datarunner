@@ -1,31 +1,27 @@
 <?php
 require_once 'header.php';
 ?>
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h1>About Datarunner...</h1>
-        <p>This site is a mobile-friendly tournament organizer and deck management utility for Android: Netrunner. The site will help to manage your tournaments or play-groups and also provide local and global statistics on card usage and win/loss ratios.</p>
-        <p><a href="about.php" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-      </div>
+	<!-- Main hero unit for a primary marketing message or call to action -->
+	<div class="page-header">
+		<h1>About Datarunner...</h1>
+	</div>
+		<p>This site is a mobile-friendly tournament organizer and deck management utility for Android: Netrunner. The site will help to manage your tournaments or play-groups and also provide local and global statistics on card usage and win/loss ratios. This project is open-source and free to use for all. Below you will find some of the information about the people behind the project.</p>
+	<!-- Example row of columns -->
+	<div class="row">
+		<div class="span6">
+			<h2>The Team</h2>
+			<h4>Jesse Harlan</h4>
+			<p>Jesse is the developer in charge of Datarunner's design and database. He is a self-taught freelance PHP developer and self-proclaimed geek. Some of the other projects that Jesse has been involved with include <a href="http://www.insidiousdesigns.net">http://www.insidiousdesigns.net</a> and <a href="http://www.crohnsfriendly.com">http://www.crohnsfriendly.com</a>.</p>
 
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span4">
-          <h2>Organize a Tournament</h2>
-          <p>Use Datarunner to organize a tournament for your FLGS or personal play-group. Tournaments are built using the Netrunner tournament rules and uses computerized randomization to handle situations like starting matchups.</p>
-          <p><a class="btn" href="organize.php">Organize a Tournament &raquo;</a></p>
-        </div>
-        <div class="span4">
-          <h2>Stats</h2>
-          <p>Provide statistics to compettitive players of Android: Netrunner on play styles, most used cards, and effective strategies. Datarunner can track both worldwide play styles and the play styles of your local group. Every person who uses Datarunner adds to the statistics pool! Use these stats to improve your compettitive play.</p>
-          <p><a class="btn" href="stats.php">View your stats &raquo;</a></p>
-       </div>
-        <div class="span4">
-          <h2>Manage Decks</h2>
-          <p>With Datarunner you can build and save your decklists for future use. You can also export and import them using Octgn.net files and text files so that you can add them to Octgn or other sites like cardgamedb.com!</p>
-          <p><a class="btn" href="decks.php">Manage your decks &raquo;</a></p>
-        </div>
-      </div>
+			<h4>Doug Quinn</h4>
+			<p>Allmighty grand poo-bah of the Man Cave Gaming Club. Doug is a self proclaimed gamer and one of the testing team-members for Datarunner.</p>
+		</div>
+		<div class="span6">
+			<h2>The Fine Print</h2>
+			<p>Datarunner is open-source software. Not only is datarunner free, it is developed openly and collaboratively. In the spirit of open source we ask that you follow a few simple rules. Firstly, if you copy datarunner (which is encouraged) you MUST include a copy of the source when re-distributing it. Secondly, when modifying the code,</p>
+			<p><a class="btn" href="stats.php">View your stats &raquo;</a></p>
+		</div>
+	</div>
 <?php
 
 require_once 'footer.php';

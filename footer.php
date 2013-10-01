@@ -1,14 +1,18 @@
       <hr>
 
       <footer>
-        <p>&copy; Company 2013</p>
+        <p>&copy; <a href="http://www.insidiousdesigns.net">Insidious Designs</a> 2013</p>
       </footer>
+<?php
 
+debug($_POST, 'post');
+debug($_GET, 'get');
+debug($_SESSION, 'session');
+
+?>
     </div> <!-- /container -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Javascript Placed at the end of the document so the pages load faster -->
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap-transition.js"></script>
     <script src="../js/bootstrap-alert.js"></script>
@@ -25,10 +29,3 @@
 
   </body>
 </html>
-<?php
-
-debug($_POST, 'post');
-debug($_GET, 'get');
-debug($_SESSION, 'session');
-
-?>
